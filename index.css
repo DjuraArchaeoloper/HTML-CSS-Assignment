@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    display: flex;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+#header {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #d3d3d3;
+    border-bottom: 1px solid #858585;
+    height: 15vh;
+}
+
+#header .logo {
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+#header .menu {
+    margin-right: 30px;
+}
+
+#header a {
+    text-decoration: none;
+    margin: 2vw;
+}
+
+#main {
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #545454;
+}
+
+#main .title{
+    font-size: 20px;
+    margin-top: 10px;
+    height: 10vh;
+}
+
+#main .text {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#main .box1 {
+    flex-wrap: wrap;
+    background-color: #d3d3d3;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #858585;
+    margin: 50px 80px 20px 5px;
+}
+
+#main .box2 {
+    flex-wrap: wrap;
+    background-color: #d3d3d3;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #858585;
+    margin: 50px 5px 20px 80px;
+}
+
+#footer{
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#footer .copy {
+    margin-left: 45px;
+}
+
+#footer .web {
+    margin-right: 25px;
+}
+
+#footer .year {
+    margin-right: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #header .logo { font-size: 10px; }
+
+    #header .menu, #main .title, p { font-size: 8px; }
+
+    #main .text { font-size: 4px; }
+
+    #main .box1, #main .box2 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #header .logo { font-size: 15px; }
+
+    #header .menu, #main .title, p { font-size: 12px; }
+
+    #main .text { font-size: 9px; }
+
+    #main .box1, #main .box2 {
+        width: 150px;
+        height: 150px;
+    }
+}
