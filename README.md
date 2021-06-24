@@ -1,4 +1,4 @@
-# fatcat-HTML-CSS-Assignment
+# HTML-CSS-Assignment
 
 This was the HTML/CSS Assignment. Only HTML and CSS were used in the making of the website, and it was made according to the picture in the word file. 
 The website has been scaled to three resolutions using media queries as it was additionaly requested.
